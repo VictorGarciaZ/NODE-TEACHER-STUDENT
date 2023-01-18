@@ -3,7 +3,7 @@ const controller = require("./teacher.controller");
 
 const router = express.Router();
 
-// ruta: /teachers/
+// ruta: /teachers
 router.get("/", controller.indexGet);
 
 // ruta: /teachers/63c588039298264dbf1567a5
